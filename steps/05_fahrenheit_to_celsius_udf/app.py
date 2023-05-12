@@ -13,6 +13,7 @@ import sys
 from scipy.constants import convert_temperature
 
 def main(temp_f: float) -> float:
+    #update to use scipy
     return convert_temperature(float(temp_f),'F','C')
 
 
